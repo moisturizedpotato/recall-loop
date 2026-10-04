@@ -1,6 +1,6 @@
 # Recall Loop
 
-Recall Loop turns questions you got wrong into small, editable review cards. It is a local-first study tool, not a chatbot: it drafts one concept, explanation, hint, recall question, and expected answer from the mistake you enter.
+Recall Loop is a local LLM-based study helper that turns questions you got wrong into small, editable review cards. It is a local-first study tool, not a chatbot: it drafts one concept, explanation, hint, recall question, and expected answer from the mistake you enter.
 
 ## Run it
 
