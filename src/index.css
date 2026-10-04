@@ -1,0 +1,50 @@
+:root {
+  color-scheme: light;
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: #29322f;
+  background: var(--canvas);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  --ink: #29322f;
+  --muted: #78827c;
+  --line: #e8eae3;
+  --paper: #fff;
+  --canvas: #f8f8f4;
+  --green: #47745b;
+  --green-deep: #345c47;
+  --green-soft: #e8f0e8;
+  --peach: #f8e7d9;
+  --blue-soft: #e8edf5;
+  --shadow: 0 9px 32px rgba(39, 53, 43, 0.045);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --ink: #e8eee9;
+  --muted: #a7b2aa;
+  --line: #37433b;
+  --paper: #202923;
+  --canvas: #151b17;
+  --green: #6e9d78;
+  --green-deep: #80ad89;
+  --green-soft: #26392c;
+  --peach: #493328;
+  --blue-soft: #293544;
+  --shadow: 0 9px 32px rgba(0, 0, 0, 0.18);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--canvas); color: var(--ink); }
+button, input, textarea { font: inherit; }
+button { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 3px solid #89a991;
+  outline-offset: 3px;
+}
+button:disabled { cursor: not-allowed; opacity: .62; }
+::selection { background: #dce9dd; color: #24352a; }
